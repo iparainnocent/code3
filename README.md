@@ -10,8 +10,6 @@ The instructions below will walk you through the process of ideation and plannin
 For this project, you must:
 
 
-Fetch data from a local server running JSON DB server.
- 
 
 ### Pre-requisite Data
 You can use this JSON file for your server DB.
