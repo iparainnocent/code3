@@ -49,7 +49,7 @@ The Movie Ticket  is a simple web application that allows users to view a list o
 - Movie Details: When a user selects a movie, the app shows the movie poster, title, runtime, showtime, and the number of available tickets.
 - Buy Ticket: Users can click the "Buy Ticket" button to purchase a ticket for the selected movie.
 #### Usage
-To use the Movie Ticket App, follow these steps:
+To use the Movie Ticket , follow these steps:
 
 - Open the HTML file in a web browser.
 - The app will display the list of available movies in the "Movies" section.
