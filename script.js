@@ -11,6 +11,7 @@ fetch('https://innocentio.vercel.app/films')
       filmsList.appendChild(filmItem);
     });
 
+
     showMovieDetails(movies[0]);
   });
 

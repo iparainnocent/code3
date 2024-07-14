@@ -41,8 +41,8 @@ if you want to get the code in this website:
 - JavaScript: The functionality and interactivity of the application.
 
 ### HTML file
-#### Movie Ticket App
-The Movie Ticket App is a simple web application that allows users to view a list of available movies and purchase tickets for their desired showtime.
+#### Movie Ticket 
+The Movie Ticket  is a simple web application that allows users to view a list of available movies and purchase tickets for their desired showtime.
 
 #### Features
 - Movie List: The app displays a list of movies available for purchase.
@@ -57,8 +57,8 @@ To use the Movie Ticket App, follow these steps:
 - If tickets are available, click the "Buy Ticket" button to purchase a ticket.
 
 ### Script.js file
-Movie Ticket App - JavaScript
-This JavaScript code is responsible for the dynamic functionality of the Movie Ticket App.
+Movie Ticket  - JavaScript
+This JavaScript code is responsible for the dynamic functionality of the Movie Ticket.
 
 #### Features
 - Fetch Movie Data: The script fetches movie data from the /films endpoint and populates the movie list on the page.
@@ -70,12 +70,12 @@ The script is contained in a single file, script.js, which should be included in
 ##### Functions
 - fetch('https://innocentio.vercel.app/films'): This function fetches the movie data from the https://innocentio.vercel.app/films endpoint and processes the response.
 - showMovieDetails(movie): This function updates the "Movie Details" section with the selected movie's information and sets up the "Buy Ticket" button functionality.
-#### Functionality
+#### Functionality 
 - Fetch Movie Data: The script first fetches the movie data from the https://innocentio.vercel.app/films endpoint using the fetch function. Once the data is received, it is parsed as JSON and used to populate the movie list.
 - Display Movie Details: When a user clicks on a movie in the list, the showMovieDetails function is called with the selected movie object as a parameter. This function updates the "Movie Details" section with the movie's poster, title, runtime, showtime, and available tickets.
 Buy Ticket: The "Buy Ticket" button is initially enabled if there are available tickets. When the user clicks the button, the script updates the available tickets count and disables the button if the movie is sold out.
 #### Customization
-To customize the Movie Ticket App, you can modify the following:
+To customize the Movie Ticket , you can modify the following:
 
 -  Movie Data: Update the movie data (titles, posters, runtimes, showtimes, capacities, tickets sold, etc.) in the script.js file or the server-side endpoint that provides the movie data.
 - Styling: Modify the CSS styles in the style.css file to change the appearance of the application.
