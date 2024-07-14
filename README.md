@@ -6,19 +6,11 @@ The instructions below will walk you through the process of ideation and plannin
 
  
 
-### Requirements
+## Requirements
 For this project, you must:
 
 
-
-### Pre-requisite Data
-You can use this JSON file for your server DB.
-
-db.jsonLinks to an external site. 
-
- 
-
-## Project Setup
+### Project Setup
 Once you have the plan in place for the application you want to build take the following steps:
 
 - Create a new project folder.
@@ -42,7 +34,7 @@ if you want to get the code in this website:
 
 - Create a respiratory in your github account to link with your work code in visual studio code.
  - Open your terminal in Visual Studio Code
-- As you continue coding make sure your     JSON SERVER is running.
+
 ### Files used
 - HTML: The structure and layout of the web page.
 - CSS: The styling and visual appearance of the application.
@@ -76,10 +68,10 @@ This JavaScript code is responsible for the dynamic functionality of the Movie T
 The script is contained in a single file, script.js, which should be included in the HTML document.
 
 ##### Functions
-- fetch('http://localhost:3000/films'): This function fetches the movie data from the http://localhost:3000/filmsj endpoint and processes the response.
+- fetch('https://innocentio.vercel.app/films'): This function fetches the movie data from the https://innocentio.vercel.app/films endpoint and processes the response.
 - showMovieDetails(movie): This function updates the "Movie Details" section with the selected movie's information and sets up the "Buy Ticket" button functionality.
 #### Functionality
-- Fetch Movie Data: The script first fetches the movie data from the http://localhost:3000/films endpoint using the fetch function. Once the data is received, it is parsed as JSON and used to populate the movie list.
+- Fetch Movie Data: The script first fetches the movie data from the https://innocentio.vercel.app/films endpoint using the fetch function. Once the data is received, it is parsed as JSON and used to populate the movie list.
 - Display Movie Details: When a user clicks on a movie in the list, the showMovieDetails function is called with the selected movie object as a parameter. This function updates the "Movie Details" section with the movie's poster, title, runtime, showtime, and available tickets.
 Buy Ticket: The "Buy Ticket" button is initially enabled if there are available tickets. When the user clicks the button, the script updates the available tickets count and disables the button if the movie is sold out.
 #### Customization
