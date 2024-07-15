@@ -7,6 +7,15 @@ body {
     background-size: cover;
     
   }
+  h1{
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+  }
+  h2{
+    color: black;
+    background-color: red;
+  }
  
   
   .container {
@@ -16,11 +25,15 @@ body {
     height: 100vh;
     padding: 20px;
   }
+   #available-tickets{
+    color: aqua;
+   }
   
   .movie-menu {
     background-color:white;
     padding: 20px;
     border-right: 1px solid white;
+    font-style: italic;
   }
   
   .movie-menu h2 {
@@ -30,10 +43,12 @@ body {
   .movie-menu ul {
     list-style-type: none;
     padding: 0;
+    color: aqua;
+    background-color: black;
   }
   
   .movie-menu li {
-    cursor: pointer;
+    cursor: alias;
     padding: 10px;
   }
   
