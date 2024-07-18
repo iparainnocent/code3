@@ -61,17 +61,17 @@ Movie Ticket  - JavaScript
 This JavaScript code is responsible for the dynamic functionality of the Movie Ticket.
 
 #### Features
-- Fetch Movie Data: The script fetches movie data from the /films endpoint and populates the movie list on the page.
+- Fetch Movie Data: The script fetches movie data from the https://innocentio.vercel.app/films/1 endpoint and populates the movie list on the page.
 - Display Movie Details: When a user clicks on a movie in the list, the script updates the "Movie Details" section with the selected movie's information, including the poster, title, runtime, showtime, and available tickets.
 - Buy Ticket: Users can click the "Buy Ticket" button to purchase a ticket for the selected movie. The script updates the available tickets count and disables the button if the movie is sold out.
 #### File Structure
 The script is contained in a single file, script.js, which should be included in the HTML document.
 
 ##### Functions
-- fetch('https://innocentio.vercel.app/films'): This function fetches the movie data from the https://innocentio.vercel.app/films endpoint and processes the response.
+- fetch('https://innocentio.vercel.app/films/1'): This function fetches the movie data from the https://innocentio.vercel.app/films endpoint and processes the response.
 - showMovieDetails(movie): This function updates the "Movie Details" section with the selected movie's information and sets up the "Buy Ticket" button functionality.
 #### Functionality 
-- Fetch Movie Data: The script first fetches the movie data from the https://innocentio.vercel.app/films endpoint using the fetch function. Once the data is received, it is parsed as JSON and used to populate the movie list.
+- Fetch Movie Data: The script first fetches the movie data from the https://innocentio.vercel.app/films/1 endpoint using the fetch function. Once the data is received, it is parsed as JSON and used to populate the movie list.
 - Display Movie Details: When a user clicks on a movie in the list, the showMovieDetails function is called with the selected movie object as a parameter. This function updates the "Movie Details" section with the movie's poster, title, runtime, showtime, and available tickets.
 Buy Ticket: The "Buy Ticket" button is initially enabled if there are available tickets. When the user clicks the button, the script updates the available tickets count and disables the button if the movie is sold out.
 #### Customization
@@ -86,4 +86,5 @@ If you find any issues or have suggestions for improvements, feel free to create
 
 ## Author
 Innocent Omonya.
+
  
