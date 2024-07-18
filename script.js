@@ -1,10 +1,10 @@
-fetch('https://innocentio.vercel.app/films')
+fetch('https://innocentio.vercel.app/films/1')
 
   .then(response => response.json())
 
   .then(movies => {
 
-    const filmsList = document.getElementById('films');
+    const filmsList = document.getElementById('films/1');
 
     movies.forEach(movie => {
 
