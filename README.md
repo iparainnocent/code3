@@ -17,6 +17,8 @@ Once you have the plan in place for the application you want to build take the f
 - Create a new GitHub repository (NB: ENSURE IT IS PRIVATE).
 - Please make sure you regularly commit to the repository.
 ## Installation 
+## Deploy link
+[https://code3-nu.vercel.app/]
 ### System Requirements
 
 - Node 18+
